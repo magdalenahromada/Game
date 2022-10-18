@@ -14,10 +14,10 @@ zwierze = zwierzeta[wylosowane]
 #print(zwierze) #wlasciwe
 zwierze_lista = list(zwierze)
 przed_potasowaniem = zwierze_lista.copy()
-#print(przed_potasowaniem)
+print("Zwierze przed potasowaniem: ", przed_potasowaniem)
 
 random.shuffle(zwierze_lista) 
-print(zwierze_lista) #potasowane w liscie
+print("Zwierze: ", zwierze_lista) #potasowane w liscie
 
 
 zwierze_uzytkownika = input("Hej, zgdanij co to za zwierze :")
