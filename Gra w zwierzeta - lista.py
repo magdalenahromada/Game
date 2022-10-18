@@ -27,3 +27,6 @@ while zwierze_uzytkownika_lista != przed_potasowaniem:
     zwierze_uzytkownika = input()
     zwierze_uzytkownika_lista = list(zwierze_uzytkownika)
 print("Brawno, to jest {}" .format(zwierze))
+
+
+################################
