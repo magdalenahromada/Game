@@ -16,14 +16,4 @@ zwierze_lista = list(zwierze)
 przed_potasowaniem = zwierze_lista.copy()
 #print(przed_potasowaniem)
 
-random.shuffle(zwierze_lista) 
-print(zwierze_lista) #potasowane w liscie
-
-
-zwierze_uzytkownika = input("Hej, zgdanij co to za zwierze :")
-zwierze_uzytkownika_lista = list(zwierze_uzytkownika)
-while zwierze_uzytkownika_lista != przed_potasowaniem:
-    print("Zgaduj dalej:")
-    zwierze_uzytkownika = input()
-    zwierze_uzytkownika_lista = list(zwierze_uzytkownika)
-print("Brawno, to jest {}" .format(zwierze))
+random.ssffs
