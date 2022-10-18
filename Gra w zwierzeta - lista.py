@@ -17,7 +17,6 @@ zwierze_lista = list(zwierze)
 przed_potasowaniem = zwierze_lista.copy()
 print("Zwierze przed potasowaniem: ", przed_potasowaniem)
 
-<<<<<<< HEAD
 random.shuffle(zwierze_lista) 
 print("Zwierze: ", zwierze_lista) #potasowane w liscie
 
@@ -30,6 +29,4 @@ while zwierze_uzytkownika_lista != przed_potasowaniem:
     zwierze_uzytkownika = input()
     zwierze_uzytkownika_lista = list(zwierze_uzytkownika)
 print("Brawno, to jest {}" .format(zwierze))
-=======
-random.ssffs
->>>>>>> parent of b57e6c8 (All game)
+
