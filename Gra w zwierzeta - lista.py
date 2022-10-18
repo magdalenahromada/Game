@@ -3,7 +3,7 @@
 # Następnie litery są mieszane.
 # Wymieszane litery pokazywane są graczowi. Gracz musi zgadnąć co to za słowo. Gracz zgaduje do skutku. Dopiero zgadnięcie przerywa grę.
 
-# Rozszerzenie: gracz może wybrać na klawiaturze „q” lub „Q”, aby zakończyć grę przed czasem.  dopisać
+# Rozszerzenie: gracz może wybrać na klawiaturze „q” lub „Q”, aby zakończyć grę przed czasem.
 
 
 import random
@@ -16,4 +16,14 @@ zwierze_lista = list(zwierze)
 przed_potasowaniem = zwierze_lista.copy()
 #print(przed_potasowaniem)
 
-random.ssffs
+random.shuffle(zwierze_lista) 
+print(zwierze_lista) #potasowane w liscie
+
+
+zwierze_uzytkownika = input("Hej, zgdanij co to za zwierze :")
+zwierze_uzytkownika_lista = list(zwierze_uzytkownika)
+while zwierze_uzytkownika_lista != przed_potasowaniem:
+    print("Zgaduj dalej:")
+    zwierze_uzytkownika = input()
+    zwierze_uzytkownika_lista = list(zwierze_uzytkownika)
+print("Brawno, to jest {}" .format(zwierze))
